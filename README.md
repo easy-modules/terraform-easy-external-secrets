@@ -339,9 +339,9 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_external_secrets_system_chart"></a> [external\_secrets\_system\_chart](#output\_external\_secrets\_system\_chart) | The chart of the external secrets system |
 | <a name="output_external_secrets_system_name"></a> [external\_secrets\_system\_name](#output\_external\_secrets\_system\_name) | The name of the external secrets system |
-| <a name="output_jaeger_system_chart"></a> [jaeger\_system\_chart](#output\_jaeger\_system\_chart) | The chart of the external secrets system |
-| <a name="output_jaeger_system_namespace"></a> [jaeger\_system\_namespace](#output\_jaeger\_system\_namespace) | The namespace of the external secrets system |
-| <a name="output_jaeger_system_version"></a> [jaeger\_system\_version](#output\_jaeger\_system\_version) | The version of the external secrets system |
+| <a name="output_external_secrets_system_namespace"></a> [external\_secrets\_system\_namespace](#output\_external\_secrets\_system\_namespace) | The namespace of the external secrets system |
+| <a name="output_external_secrets_system_version"></a> [external\_secrets\_system\_version](#output\_external\_secrets\_system\_version) | The version of the external secrets system |
 | <a name="output_repository"></a> [repository](#output\_repository) | The repository of the external secrets system |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
