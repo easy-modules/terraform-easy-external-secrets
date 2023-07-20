@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/easy-modules/terraform-easy-external-secrets/compare/v1.0.0...v1.1.0) (2023-07-20)
+
+
+### Features
+
+* external secret  module ([21994a7](https://github.com/easy-modules/terraform-easy-external-secrets/commit/21994a71e7562dce6dfe30c4247606f55e2b3865))
+
 ## 1.0.0 (2023-07-20)
 
 
