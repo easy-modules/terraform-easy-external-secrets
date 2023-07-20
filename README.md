@@ -5,7 +5,7 @@ Terraform module for deploying [external-secrets](https://github.com/external-se
 
 ```hcl
 module "external_secrets" {
-  source = "easy-modules/eks-external-secrets"
+  source = "easy-modules/external-secrets/easy"
   enabled = true
   cluster_name                     = "eks-prod-42"
   chart_name                       = "external-secrets"
@@ -327,7 +327,7 @@ No modules.
 | <a name="input_cleanup_on_fail"></a> [cleanup\_on\_fail](#input\_cleanup\_on\_fail) | Cleanup on fail | `bool` | `true` | no |
 | <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | Cluster name | `string` | `"ecomm-dev"` | no |
 | <a name="input_create_namespace"></a> [create\_namespace](#input\_create\_namespace) | Create namespace | `bool` | `true` | no |
-| <a name="input_description"></a> [description](#input\_description) | External Secrets chart description | `string` | `"External Secrets is a Kubernetes External Secrets implementation"` | no |
+| <a name="input_description"></a> [description](#input\_description) | External Secrets chart description | `string` | `"External Secrets Operator is a Kubernetes operator that integrates external secret management"` | no |
 | <a name="input_max_history"></a> [max\_history](#input\_max\_history) | Max history for External Secrets | `number` | `5` | no |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | External namespace | `string` | `"external-secret-system"` | no |
 | <a name="input_repository"></a> [repository](#input\_repository) | External Secrets chart repository | `string` | `"https://charts.external-secrets.io"` | no |

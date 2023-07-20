@@ -23,7 +23,7 @@ variable "chart_name" {
 variable "description" {
   type        = string
   description = "External Secrets chart description"
-  default     = "External Secrets is a Kubernetes External Secrets implementation"
+  default     = "External Secrets Operator is a Kubernetes operator that integrates external secret management"
 }
 
 variable "chart_version" {
